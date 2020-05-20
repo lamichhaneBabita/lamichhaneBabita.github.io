@@ -1,0 +1,15 @@
+h1, h2{font-family: Arial, Arial Black, Verdana, Trebuchet MS, Georgia, Tahoma, Courier
+    New, Times New Roman;
+    
+    color: blueviolet;
+}
+body{
+    background-color: burlywood;
+}
+A:link{color: #000; text-decoration: rgba(1, 1, 14, 0.034); font-weight:500;}
+A:hover{color:red; text-decoration: olive; font-weight: normal;}
+P::first-letter{float: left; font-size: 45px;}
+
+.intro{
+font-style: italic;
+}
