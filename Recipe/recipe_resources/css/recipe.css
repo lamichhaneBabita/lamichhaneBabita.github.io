@@ -1,14 +1,16 @@
-#mainTopic{
+#mainHeading{
     font-size: 22pt;
     text-align: center;
+    
     
     
 }
 
 h1{
    background-color: #f0f0f0;
-   display:inline;
+   margin:auto;
    
+   display: inline-block;
    color: #a4a400;
    font-family:Lucida Sans Unicode, Helvetica, Arial, sans-serif;
    font-size: 18pt;
