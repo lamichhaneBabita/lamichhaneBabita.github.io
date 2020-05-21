@@ -49,3 +49,6 @@ ul.no-bullets {
   pre{
       padding-left: 0;
   }
+  span{
+      text-decoration: line-through;
+  }
