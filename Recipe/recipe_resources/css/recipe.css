@@ -2,6 +2,7 @@
     font-size: 22pt;
     text-align: center;
     
+    
 }
 
 h1{
@@ -25,6 +26,7 @@ body{
     font-family:Georgia,Garamond,serif ;
     background-image: url("../images/silverware.jpg");
     background-repeat: repeat;
+    
 }
 A:any-link{
     color: #a4a400;
@@ -37,4 +39,11 @@ ul.no-bullets {
 
  ul li{
       list-style-image: url("../images/pie_icon.gif");
+  }
+  blockquote{
+      background-color: khaki;
+      font-style: italic;
+  }
+  pre{
+      padding-left: 0;
   }
