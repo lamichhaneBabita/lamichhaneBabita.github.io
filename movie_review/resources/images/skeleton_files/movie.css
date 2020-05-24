@@ -1,0 +1,139 @@
+body{
+    background-image: url("./background.png");
+    font-size: 8pt;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+#main_header{
+    text-align: center;
+    background-image: url("./bannerbg.png");
+    background-repeat:repeat-x;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Verdana, sans-serif ;
+    text-shadow: 3px 3px #999999;
+    
+}
+#main_container{
+    
+   border-width: 800px;
+   margin:0 auto;
+    border:4px solid gray;
+    padding:0px;
+    position: relative;
+    border-radius: 20px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.rotten_header{
+   
+    background-repeat: repeat-x;
+    overflow: hidden;
+    height: 82px;
+    background-image: url("./rbg.png");
+    
+    font-size: 2em;
+}
+.rotten_header h1{
+    color: red;
+    display: inline;
+    font-size: 48px;
+}
+.Movie_page{
+    background-color: #A2B964;
+    width: 250px;
+    margin: 0 auto;
+    
+    font:8pt arial, sans-serif;
+    float: right;
+    display: block;
+}
+.Movie_page img{
+    text-align: right;
+    margin: 0px;
+}
+
+ dd{
+    margin-left: 3em;
+    font-size: 10pt;
+}
+
+dd ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+dt{
+    font-weight: bold;
+}
+
+.Movie_page dl{
+    padding-left: 10px;
+    padding-right: 3px;
+}
+.quote_box{
+    font-size: 8pt;
+    background-color: #e8dc9b;
+    border-radius: 10px;
+    border:2px  solid gray;
+    padding: 8px;
+    overflow: auto;
+    font-weight: bold;
+}
+.quote_box img{
+    float: left;
+    padding: 5px;
+}
+.author_box{
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: left;
+
+
+}
+.author_box img{
+    float: left;
+    padding: 5px;
+}
+
+.bottoms{
+    background-color:#A2B964 ;
+    margin-bottom: 5px;
+    
+    bottom: 0px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    text-align: center;
+}
+
+
+
+.validators{
+    opacity: 0.5px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+}
+.movie_comments{
+    -webkit-column-count: 2;
+	-webkit-column-gap: 2%;
+	-webkit-column-width: 47%;
+}
+
+
+
+
+.column{
+    float: left;
+    
+    margin: 2%;
+    
+}
