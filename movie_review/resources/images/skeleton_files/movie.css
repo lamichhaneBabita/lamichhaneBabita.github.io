@@ -40,6 +40,7 @@ h1{
     background-image: url("./rbg.png");
     
     font-size: 2em;
+    
 }
 .rotten_header h1{
     color: red;
@@ -81,30 +82,36 @@ dt{
 .Movie_page dl{
     padding-left: 10px;
     padding-right: 3px;
+    
 }
 .quote_box{
-    font-size: 8pt;
+    font-size: 8px;
     background-color: #e8dc9b;
     border-radius: 10px;
     border:2px  solid gray;
     padding: 8px;
     overflow: auto;
     font-weight: bold;
+    
+    
 }
 .quote_box img{
     float: left;
     padding: 5px;
 }
 .author_box{
-    margin-bottom: 20px;
-    overflow: auto;
+    
+    
     clear: left;
+    overflow: auto;
+    font-style: italic;
+    margin-bottom: 20pt;
 
 
 }
 .author_box img{
     float: left;
-    padding: 5px;
+    
 }
 
 .bottoms{
@@ -130,8 +137,9 @@ dt{
 }
 .movie_comments{
     -webkit-column-count: 2;
-	-webkit-column-gap: 2%;
-	-webkit-column-width: 47%;
+	
+    -webkit-column-width: 47%;
+    margin-top: 20pt;
 }
 
 
@@ -139,7 +147,9 @@ dt{
 
 .column{
     float: left;
-    
+
     margin: 2%;
+     
+    
     
 }
